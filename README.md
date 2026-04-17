@@ -1,3 +1,6 @@
+<img width="1200" height="525" alt="jt_social_bar" src="https://github.com/user-attachments/assets/9e391676-efbb-4740-8dbe-30041be05aa6" />
+
+
 # Joomtheme Social Share Bars Updates
 
 This repository contains the Joomla update server files for **Joomtheme Social Share Bars**.
