@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<changelogs>
+    <changelog>
+        <element>socialsharebars</element>
+        <type>plugin</type>
+        <version>3.1.7</version>
+        <addition>
+            <item>Added Joomla update server metadata for the public update stream.</item>
+            <item>Added a changelog URL for Joomla administrator update visibility.</item>
+        </addition>
+        <fix>
+            <item>Corrected Joomla media asset URIs so CSS and JavaScript load from their installed paths.</item>
+            <item>Synchronized package metadata, manifest version, asset version, and installer messages to 3.1.7.</item>
+        </fix>
+        <language>
+            <item>Updated English and Turkish installer strings for the 3.1.7 release.</item>
+        </language>
+    </changelog>
+</changelogs>
