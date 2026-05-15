@@ -3,6 +3,26 @@
     <changelog>
         <element>socialsharebars</element>
         <type>plugin</type>
+        <version>3.1.9</version>
+        <fix>
+            <item>Fixed the incorrect version number displayed in the plugin About tab.</item>
+            <item>Updated the Joomla 6.1 plugin service provider to remove deprecated dispatcher constructor injection.</item>
+            <item>Improved routed article URL generation for share links.</item>
+        </fix>
+        <language>
+            <item>Updated English language strings for the About tab, installer messages, and version information.</item>
+            <item>Updated Turkish language strings for the About tab, installer messages, and version information.</item>
+        </language>
+        <change>
+            <item>Updated the minimum Joomla requirement to Joomla 6.1.0.</item>
+            <item>Updated the package metadata, manifest version, and Web Asset Manager asset version to 3.1.9.</item>
+            <item>Changed language loading to runtime loading for better plugin performance.</item>
+        </change>
+    </changelog>
+
+    <changelog>
+        <element>socialsharebars</element>
+        <type>plugin</type>
         <version>3.1.8</version>
         <fix>
             <item>Fixed Joomla Web Asset Manager URIs so the plugin CSS and JavaScript load correctly.</item>
