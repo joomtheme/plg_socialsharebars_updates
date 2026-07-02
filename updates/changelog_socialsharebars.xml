@@ -3,6 +3,22 @@
     <changelog>
         <element>socialsharebars</element>
         <type>plugin</type>
+        <version>3.1.10</version>
+        <fix>
+            <item>Improved article share URL generation with Joomla content route helper fallback support.</item>
+            <item>Fixed relative URL normalisation for Joomla sites installed in subdirectories.</item>
+            <item>Rejected non-http share targets during URL normalisation as a defensive hardening measure.</item>
+        </fix>
+        <change>
+            <item>Moved the final wrapper rendering into a Joomla layout file for cleaner plugin maintenance.</item>
+            <item>Replaced social monogram SVGs with consistent path-based SVG icons.</item>
+            <item>Bumped manifest, language messages and Web Asset Manager cache versions to 3.1.10.</item>
+        </change>
+    </changelog>
+
+    <changelog>
+        <element>socialsharebars</element>
+        <type>plugin</type>
         <version>3.1.9</version>
         <fix>
             <item>Fixed the incorrect version number displayed in the plugin About tab.</item>
