@@ -3,6 +3,22 @@
     <changelog>
         <element>socialsharebars</element>
         <type>plugin</type>
+        <version>3.1.11</version>
+        <fix>
+            <item>Fixed Pinterest Pin creation failures caused by missing or invalid article image URLs.</item>
+            <item>Added the resolved article image URL to Pinterest share links using the media parameter.</item>
+            <item>Converted relative article image paths to absolute URLs before sharing.</item>
+            <item>Removed Joomla image metadata fragments from generated Pinterest image URLs.</item>
+            <item>Added fallback image detection using the full article image, intro image, social metadata image, or first article image.</item>
+        </fix>
+        <change>
+            <item>Updated the plugin version metadata to 3.1.11.</item>
+        </change>
+    </changelog>
+
+    <changelog>
+        <element>socialsharebars</element>
+        <type>plugin</type>
         <version>3.1.10</version>
         <fix>
             <item>Improved article share URL generation with Joomla content route helper fallback support.</item>
