@@ -7,12 +7,12 @@
         <type>plugin</type>
         <folder>content</folder>
         <client>site</client>
-        <version>3.1.10</version>
+        <version>3.1.11</version>
         <infourl title="Joomtheme Social Share Bars">https://joomtheme.com/joomla-shop</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/joomtheme/plg_socialsharebars_updates/releases/download/v3.1.10/plg_content_socialsharebars_v3.1.10.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/joomtheme/plg_socialsharebars_updates/releases/download/v3.1.11/plg_content_socialsharebars_v3.1.11.zip</downloadurl>
         </downloads>
-        <sha256>3c6a242ccc9e755bf71e220dab5076740edd455c507615a9f689bb270a6aaff6</sha256>
+        <sha256>8669d1178135b5bec10625ba535390e383e900528bac8a6a1b1014ba1989fc61</sha256>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/plg_socialsharebars_updates/main/updates/changelog_socialsharebars.xml</changelogurl>
         <targetplatform name="joomla" version="6\.[1-9][0-9]*" />
         <php_minimum>8.3.0</php_minimum>
