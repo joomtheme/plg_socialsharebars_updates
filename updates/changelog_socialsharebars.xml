@@ -3,6 +3,21 @@
     <changelog>
         <element>socialsharebars</element>
         <type>plugin</type>
+        <version>3.1.12</version>
+        <addition>
+            <item>Added an optional Bluesky share button using the official compose intent endpoint.</item>
+            <item>Added Bluesky network ordering, brand styling, icon, and English/Turkish language strings.</item>
+        </addition>
+        <change>
+            <item>Limited prefilled Bluesky share text to 300 Unicode grapheme clusters while retaining the article URL.</item>
+            <item>Kept Bluesky disabled by default so existing installations preserve their current visible buttons.</item>
+            <item>Updated the plugin version metadata and Web Asset Manager cache versions to 3.1.12.</item>
+        </change>
+    </changelog>
+
+    <changelog>
+        <element>socialsharebars</element>
+        <type>plugin</type>
         <version>3.1.11</version>
         <fix>
             <item>Fixed Pinterest Pin creation failures caused by missing or invalid article image URLs.</item>
